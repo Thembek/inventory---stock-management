@@ -307,6 +307,10 @@ p {
 
 .--btn:hover {
   transform: translateY(-2px);
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  background-color: red;
 }
 
 .--btn-lg {
@@ -328,7 +332,7 @@ p {
 }
 .--btn-danger {
   color: #fff;
-  background: orangered;
+  background: #3a3a3a;
 }
 
 .--btn-success {
