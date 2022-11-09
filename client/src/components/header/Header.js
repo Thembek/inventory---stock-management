@@ -22,7 +22,6 @@ const Header = () => {
           <span className="--fw-thin">Welcome, </span>
           <span style={{ color : '#3a3a3a' }}>{name}</span>
         </h3>
-        <Link className="expenses" to="/expenses">Expenses</Link>
         <button onClick={logout} className="--btn --btn-danger">
           Logout
         </button>
