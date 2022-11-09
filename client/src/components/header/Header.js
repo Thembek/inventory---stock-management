@@ -20,7 +20,7 @@ const Header = () => {
       <div className="--flex-between">
         <h3>
           <span className="--fw-thin">Welcome, </span>
-          <span className="--color-danger">{name}</span>
+          <span style={{ color : '#3a3a3a' }}>{name}</span>
         </h3>
         <button onClick={logout} className="--btn --btn-danger">
           Logout
