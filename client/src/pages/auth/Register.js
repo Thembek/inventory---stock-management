@@ -111,9 +111,9 @@ const Register = () => {
           </form>
 
           <span className={styles.register}>
-            <Link to="/">Home</Link>
+            <Link to="/" style={{ color: 'red' }}>Home</Link>
             <p> &nbsp; Already have an account? &nbsp;</p>
-            <Link to="/login">Login</Link>
+            <Link to="/login" style={{ color: '#0650d4' }}>Login</Link>
           </span>
         </div>
       </Card>

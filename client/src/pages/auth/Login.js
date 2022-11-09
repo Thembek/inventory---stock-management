@@ -85,12 +85,13 @@ const Login = () => {
               Login
             </button>
           </form>
-          <Link to="/forgot" style={{ fontSize: '1.5rem', color : '#0650d4' }}>Forgot Password</Link>
+          <span style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+            <Link to="/forgot" style={{ fontSize: '1.5rem', color : '#0650d4' }}>Forgot Password</Link>
+          </span>
 
           <span className={styles.register}>
-            <Link to="/">Home</Link>
-            <p> &nbsp; Don't have an account? &nbsp;</p>
-            <Link to="/register">Register</Link>
+            <p style={{ fontWeight: 'bolder' }}> &nbsp; Don't have an account? &nbsp;</p>
+            <Link to="/register" style={{ color : '#0650d4', fontSize: '1.5rem' }}>Register</Link>
           </span>
         </div>
       </Card>
