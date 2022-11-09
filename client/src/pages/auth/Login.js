@@ -85,7 +85,7 @@ const Login = () => {
               Login
             </button>
           </form>
-          <Link to="/forgot">Forgot Password</Link>
+          <Link to="/forgot" style={{ fontSize: '1.5rem', color : '#0650d4' }}>Forgot Password</Link>
 
           <span className={styles.register}>
             <Link to="/">Home</Link>

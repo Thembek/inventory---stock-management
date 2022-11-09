@@ -19,7 +19,7 @@
 
   --color-primary: #007bff;
   --color-success: #28a745;
-  --color-danger: #1aac83;
+  --color-danger: orangered;
 }
 
 * {
@@ -319,7 +319,7 @@ p {
 
 .--btn-primary {
   color: #fff;
-  background: #007bff;
+  background: #1aac83;
 }
 .--btn-secondary {
   color: #fff;
