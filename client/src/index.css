@@ -336,6 +336,14 @@ p {
   background: #28a745;
 }
 
+/*-- Expenses Section --*/
+.expenses{
+  color: #fff;
+  padding: 6px;
+  border-radius: 5px;
+  background-color: #2a3033;
+} 
+
 /* Background */
 .--bg-light {
   background: #fff;

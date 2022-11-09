@@ -1,6 +1,6 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { selectName, SET_LOGIN } from "../../redux/features/auth/authSlice";
 import { logoutUser } from "../../services/authService";
 
@@ -22,9 +22,11 @@ const Header = () => {
           <span className="--fw-thin">Welcome, </span>
           <span style={{ color : '#3a3a3a' }}>{name}</span>
         </h3>
+        <Link className="expenses" to="/expenses">Expenses</Link>
         <button onClick={logout} className="--btn --btn-danger">
           Logout
         </button>
+        
       </div>
       <hr />
     </div>
