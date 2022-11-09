@@ -1,5 +1,5 @@
 import React from "react";
-import { RiProductHuntLine } from "react-icons/ri";
+import { SiApache } from "react-icons/si";
 import { Link } from "react-router-dom";
 import "./Home.scss";
 import heroImg from "../../assets/inv-img.png";
@@ -10,7 +10,7 @@ const Home = () => {
     <div className="home">
       <nav className="container --flex-between ">
         <div className="logo">
-          <RiProductHuntLine size={35} />
+          <SiApache size={45} />
         </div>
 
         <ul className="home-links">
