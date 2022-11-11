@@ -38,7 +38,7 @@ const Home = () => {
       {/* HERO SECTION */}
       <section className="container hero">
         <div className="hero-text">
-          <h2>Inventory {"&"} Stock Management Solution</h2>
+          <h2>Haws.dott Solution</h2>
           <p>
             Inventory system, control and manage your products at your warehouse.<br />
             With this real time web software.<br />
